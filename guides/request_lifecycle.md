@@ -139,7 +139,7 @@ Let's delete our `def index(assigns)` function and replace it with an `embed_tem
 defmodule HelloWeb.HelloHTML do
   use HelloWeb, :html
 
-  embed_templates "hello/*"
+  embed_templates "hello_html/*"
 end
 ```
 
